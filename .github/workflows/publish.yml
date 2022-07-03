@@ -23,7 +23,7 @@ jobs:
       - name: Convert to PDF
         uses: xu-cheng/latex-action@v2
         with:
-          root-file: resume.tex
+          root_file: resume.tex
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
