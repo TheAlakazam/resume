@@ -25,14 +25,20 @@ jobs:
         with:
           root_file: resume.tex
 
+      - name: Bump version
+        id: bump_version
+        uses: mathieudutour/github-tag-action@v6.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ github.ref }}
-          release_name: Resume Version ${{ github.ref }}
+          tag_name: ${{ steps.bump_version.outputs.new_tag }}
+          release_name: Resume Version ${{ steps.bump_version.outputs.new_version }}
           draft: false
           prerelease: false
       
