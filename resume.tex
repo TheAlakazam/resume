@@ -106,39 +106,25 @@
 %-------------------------------------------
 %-- RESUME Starts Here -------
 \begin{document}
+	\fontfamily{lmss}\selectfont
 	\begin{center}
     	{\Huge \scshape Piyush Jaipuriyar} \\ \vspace{1pt}
     	\small \raisebox{-0.1\height}\faPhone\ +91 8447501223 ~ \href{mailto:piyushjaipuriyar@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{piyushjaipuriyar@gmail.com}} ~ 
-    	\href{https://www.linkedin.com/in/piyush-jaipuriyar/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/piyush-jaipuriyar/}}  ~
+    	\href{https://www.linkedin.com/in/piyush-jaipuriyar/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/piyush-jaipuriyar}}  ~
     	\href{https://github.com/TheAlakazam/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/TheAlakazam}}
     	\vspace{-8pt}
 	\end{center}
 
-	%-----------EDUCATION-----------
-\section{Education}
-\resumeSubHeadingListStart
-  \resumeSubheading
-	{State University}{Sep. 2017 -- May 2021}
-	{Bachelor of Science in Computer Science}{City, State}
-\resumeSubHeadingListEnd
-
-%------RELEVANT COURSEWORK-------
-\section{Relevant Coursework}
-  %\resumeSubHeadingListStart
-	  \begin{multicols}{4}
-		  \begin{itemize}[itemsep=-5pt, parsep=3pt]
-			  \item\small Data Structures
-			  \item Software Methodology
-			  \item Algorithms Analysis
-			  \item Database Management
-			  \item Artificial Intelligence
-			  \item Internet Technology
-			  \item Systems Programming
-			  \item Computer Architecture
-		  \end{itemize}
-	  \end{multicols}
-	  \vspace*{2.0\multicolsep}
-  %\resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: Javascript, Typescript, Java, Python, C/C++, SQL, Rust} \\
+   \textbf{Technologies}{: React.js, Redux, Express.js, Jest, Enzyme, Cypress, Spring Boot, Spring, JUnit, MonogDB, Oracle SQL} \\
+   \textbf{Tools}{: Git, Bash, Jira} \\
+  }}
+\end{itemize}
+\vspace{-16pt}
 
 
 %-----------EXPERIENCE-----------
@@ -146,83 +132,79 @@
 \resumeSubHeadingListStart
 
   \resumeSubheading
-	{Electronics Company}{May 2020 -- August 2020}
-	{Software Engineer Intern}{City, State}
+	{PayPal India Pvt. Ltd.}{August 2020 -- Present}
+	{Software Development Engineer 1}{Chennai, Tamil Nadu}
 	\resumeItemListStart
-	  \resumeItem{Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
-	  \resumeItem{Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.}
-	  \resumeItem{Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
-	  \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
-	\resumeItemListEnd
+	  \resumeItem{Developed an extensible multi-tenant UI for Case Management software used for Due Diligence investigations. 
+	  Onboarded 3 subsidaries as tenants, along with the existing Paypal customers, migrating from spreadsheet and document based investigations.
+	  Providing a unified User Experience across tenants, increasing investigator productivity.}
+	  \resumeItem{Developed UI for multiple types of Cases used by investigators for Due Diligence on Paypal's and subsidary's customers and merchants.}
+	  \resumeItem{Improved Unit Test coverage of React application from 52\% to 92\%, covering 24,000 lines of code, using Enzyme and Jest.}
+	  \resumeItem{Implemented automated End-to-End testing for web application, using Cypress. Decreasing regression testing times by 60\%.}
+	  \resumeItem{Developed multiple UI widgets, which are being used across teams to view and interact with user and merchant data.}
+	  \resumeItem{Responsible for developing and maintaining the frontend for Due Diligence tool used by investigators.}
+	  \resumeItemListEnd
 
   \resumeSubheading
-	{Startup, Inc}{May 2019 -- August 2019}
-	{Front End Developer Intern}{City, State}
+	{PayPal India Pvt. Ltd.}{June 2019 -- July 2019}
+	{Software Development Intern}{Chennai, Tamil Nadu}
 	\resumeItemListStart
-	  \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
-	  \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
-	  \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
-	  \resumeItem{Utilized Android Studio as a development environment in order to visualize the application in both iOS and Android.}
-  \resumeItemListEnd
+		\resumeItem{Developed a React.js application to manage configuration files used for internal periodic batch jobs.
+		 Improved from the existing manual system being used in the organisation.}
+		\resumeItem{Worked on REST API written using Spring Boot to interface with the configuration files.}
+  	\resumeItemListEnd
+
+  \resumeSubheading
+  	{JMoon Technologies Pvt. Ltd.}{June 2018 -- June 2018}
+	{Software Development Intern}{New Delhi}
+	\resumeItemListStart
+		\resumeItem{Developed a library to communicate and run Dynamixel actuators. 
+		Migrating from the current library using Python, to using official C++ SDK by the manufacturers and wrapping in Python for ease of use.} %-- Improvement percentage needed (STAR)
+		\resumeItem{Researched on various offline Speech-to-Text engines, to deploy on development boards like Raspberry Pi.}
+	\resumeItemListEnd
   
 \resumeSubHeadingListEnd
 \vspace{-16pt}
 
-%-----------PROJECTS-----------
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+	\resumeSubheading
+		{SRM Institute of Science and Technology}{2016 -- 2020}
+		{Bachelor of Technology in Computer Science and Engineering}{Chennai}
+	\resumeSubSubheading{CGPA: 9.0}{}
+	
+	\resumeSubheading
+		{Class 12th}{2014 -- 2016}
+		{Delhi Public School, Noida}{Noida, Uttar Pradesh}
+	\resumeSubSubheading{CBSE Board: 90\%}{}
+\resumeSubHeadingListEnd
+
+% %-----------PROJECTS-----------
 \section{Projects}
   \vspace{-5pt}
   \resumeSubHeadingListStart
 	\resumeProjectHeading
-		{\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
+		{\textbf{coreutils} $|$ \emph{Rust, CLI Tools, Open Source}}{}
 		\resumeItemListStart
-		  \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
-		  \resumeItem{Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.}
-		  \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
-		  \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
+		  \resumeItem{Added option to use blake2 as a hashing algorithm for the hashsum tool}
 		\resumeItemListEnd
 		\vspace{-13pt}
 	\resumeProjectHeading
-		{\textbf{Ticket Price Calculator App} $|$ \emph{Java, Android Studio}}{November 2020}
+		{\textbf{Dyamixel Motor Library} $|$ \emph{Python}}{}
 		\resumeItemListStart
-		  \resumeItem{Created an Android application using Java and Android Studio to calculate ticket prices for trips to museums in NYC.}
-		  \resumeItem{Processed user inputted information in the back-end of the app to return a subtotal price based on the tickets selected.}
-		  \resumeItem{Utilized the layout editor to create a UI for the application in order to allow different scenes to interact with each other.}
-		\resumeItemListEnd 
-		\vspace{-13pt}
-		\resumeProjectHeading
-		{\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{October 2020}
-		\resumeItemListStart
-		  \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
-		  \resumeItem{Used JavaFX to create a GUI that supports actions such as creating an account, deposit, withdraw, list all acounts, etc.}
-		  \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+		  \resumeItem{Developed interface to use the DynamixelSDK to control and communicate with the Dynamixel motors}
+		  \resumeItem{Packaged as a python package for easy installation}
 		\resumeItemListEnd 
   \resumeSubHeadingListEnd
 \vspace{-15pt}
 
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
-\begin{itemize}[leftmargin=0.15in, label={}]
-  \small{\item{
-   \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL} \\
-   \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
-   \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, JUnit, WordPress} \\
-  }}
-\end{itemize}
-\vspace{-16pt}
-
-
 %-----------INVOLVEMENT---------------
-\section{Leadership / Extracurricular}
-  \resumeSubHeadingListStart
-	  \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
-		  \resumeItemListStart
-			  \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
-			  \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
-			  \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
-		  \resumeItemListEnd
-	  
-  \resumeSubHeadingListEnd
+\section{Achievements / Awards}
+	\resumeItemListStart
+		\resumeItem{Placed 3rd at inhouse Hackathon, developed VS Code extension to provide autocompletion suggestions for in-house Document-as-Code JSON files used for rendering UI components, using Language Server Protocol.}
+		\resumeItem{Placed in Top 10 in company wide Capture the Flag event.}
+		\resumeItem{Participated in RoboGames 2018 (International Robotics Competition), winning 2 Gold and 1 Bronze medals.}
+	\resumeItemListEnd
 
 \end{document}
